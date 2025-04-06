@@ -1,0 +1,908 @@
+[
+    {
+        "instruction": "Confirm whether GITAM Library automatically cancels unclaimed reservations.",
+        "input": "Does GITAM Library automatically cancel unclaimed reservations after certain days?",
+        "output": "**Automatic Cancellation:**\n Yes, GITAM Library cancels unclaimed reservations after 3 days. You will need to re-reserve the book if you still require it.",
+        "model_response": "Yes, if you have not returned 'The Algorithm Design Manual' within the specified time period, your reservation will be canceled."
+    },
+    {
+        "instruction": "Inform the user about the grace period for picking up reserved books like 'The Great Gatsby' at GITAM Library.",
+        "input": "Is there a grace period to pick up reserved books like 'The Great Gatsby' at GITAM Library?",
+        "output": "**Grace Period Policy:**\n There is no additional grace period beyond the 3-day hold. If *The Great Gatsby* is not collected within this time, the reservation is canceled.",
+        "model_response": "Yes, the grace period for reserved books like 'The Great Gatsby' is **one week** from the due date."
+    },
+    {
+        "instruction": "Clarify if course textbooks like 'Engineering Mathematics' can be reserved at GITAM Library.",
+        "input": "Can I reserve course textbooks like 'Engineering Mathematics' at GITAM Library?",
+        "output": "**Course Textbook Reservations:**\n Yes, *Engineering Mathematics* can be reserved. However, high-demand course textbooks may have shorter loan periods and limited reservation slots.",
+        "model_response": "Yes, course textbooks like 'Engineering Mathematics' can be reserved for a limited period. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Explain whether there are restrictions on reserving textbooks during exams at GITAM Library.",
+        "input": "Are there limits on reserving textbooks during exams at GITAM Library?",
+        "output": "**Exam Period Limits:**\n Yes, GITAM Library imposes stricter reservation limits on textbooks during exams to ensure fair access. Students may only reserve one textbook at a time during this period.",
+        "model_response": "Yes, textbooks can be reserved for a maximum of 14 days."
+    },
+    {
+        "instruction": "Provide information on how early a student can reserve next semester's prescribed books at GITAM Library.",
+        "input": "How early can I reserve next semester's prescribed books at GITAM Library?",
+        "output": "**Advance Reservations:**\n Reservations for next semester's textbooks can be made one month before the start of the semester. Check the library\u00e2\u20ac\u2122s announcement section for specific dates.",
+        "model_response": "**Early Riser Policy:**\n *The GITAM Library Early Riser Policy* is available at the GITAM Library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Clarify if GITAM Library prioritizes final-year students for textbook reservations.",
+        "input": "Does GITAM Library prioritize final-year students for textbook reservations?",
+        "output": "**Final-Year Student Priority:**\n Yes, GITAM Library may prioritize final-year students for essential textbooks required for research and project work, especially during peak academic periods.",
+        "model_response": "Yes, GITAM Library prioritizes final-year students for textbook reservations. They receive priority for borrowing books like 'The Elements of Statistical Learning' and 'The Algorithm Design Manual' due to high demand."
+    },
+    {
+        "instruction": "Confirm whether faculty members can reserve textbooks longer than students at GITAM Library.",
+        "input": "Can faculty reserve textbooks longer than students at GITAM Library?",
+        "output": "**Faculty Reservation Privileges:**\n Yes, faculty members typically have extended borrowing and reservation periods for textbooks compared to students. Specific duration policies vary by department.",
+        "model_response": "Yes, faculty members can reserve textbooks for up to 14 days, subject to availability."
+    },
+    {
+        "instruction": "Explain why 'Library Use Only' reference books cannot be reserved at GITAM Library.",
+        "input": "Why can't I reserve 'Library Use Only' reference books at GITAM Library?",
+        "output": "**Reference Book Policy:**\n 'Library Use Only' books are non-circulating resources intended for in-library reference. They cannot be reserved to ensure availability for all users at any time.",
+        "model_response": "Reference books like 'Library Use Only' cannot be reserved due to high demand. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Clarify whether rare books like 'The Origin of Species' are available for reservation at GITAM Library.",
+        "input": "Are rare books like 'The Origin of Species' available for reservation at GITAM Library?",
+        "output": "**Rare Book Access:**\n Rare books such as *The Origin of Species* are part of special collections and may not be available for reservation. These can usually be accessed in designated reading areas within the library.",
+        "model_response": "Rare books like 'The Origin of Species' are available for reservation. Please check the library's catalog or contact the library staff for availability."
+    },
+    {
+        "instruction": "Confirm whether PhD students can reserve special collections at GITAM Library.",
+        "input": "Can PhD students reserve special collections at GITAM Library?",
+        "output": "**Special Collection Policy:**\n Special collections are typically non-circulating, but PhD students may be allowed extended in-library access. Reservation policies vary by department.",
+        "model_response": "Yes, PhD students can reserve special collections through the library's online catalog."
+    },
+    {
+        "instruction": "Inform whether books marked 'Missing' can be reserved at GITAM Library.",
+        "input": "Does GITAM Library allow reservations for books marked 'Missing'?",
+        "output": "**Missing Book Status:**\n Books labeled 'Missing' cannot be reserved. You may request the library to search for or replace the book, and they will notify you if it becomes available.",
+        "model_response": "Yes, books marked 'Missing' can be reserved for a maximum of 14 days."
+    },
+    {
+        "instruction": "Explain why 'The Art of Computer Programming' is not reservable at GITAM Library.",
+        "input": "Why is 'The Art of Computer Programming' not reservable at GITAM Library?",
+        "output": "**Non-Reservable Status:**\n *The Art of Computer Programming* may be a high-demand reference book, part of a special collection, or currently checked out with no reservation option. Contact the library for alternatives.",
+        "model_response": "'The Art of Computer Programming' is available for checkout in the Computer Science section, Second Floor, Shelf CS5."
+    },
+    {
+        "instruction": "Clarify if users can reserve a book they currently have checked out from GITAM Library.",
+        "input": "Can I reserve a book I currently have checked out from GITAM Library?",
+        "output": "**Self-Reservation Policy:**\n No, users cannot place reservations on books they have checked out. If needed beyond the due date, check if a renewal option is available.",
+        "model_response": "Yes, you can reserve books like 'The Algorithm Design Manual' or 'The Pragmatic Programmer' through the library portal."
+    },
+    {
+        "instruction": "Explain how renewing through reservation works at GITAM Library.",
+        "input": "How does renewing through reservation work at GITAM Library?",
+        "output": "**Renewal & Reservation:**\n If a book has an active reservation from another user, renewals may be restricted. Return the book by the due date and reserve it again if no other holds exist.",
+        "model_response": "**Renewal through Reservation:**\n Log into the library portal and click 'Reserve' to confirm your request. You will receive a notification when your book is available. You can also check the library's online catalog for availability."
+    },
+    {
+        "instruction": "Clarify whether reserving 'Python Crash Course' extends the current loan period.",
+        "input": "If I reserve 'Python Crash Course', does my current loan period extend?",
+        "output": "**Reservation & Loan Period:**\n Reserving *Python Crash Course* does not extend an ongoing loan. You must return the book and wait for your turn in the reservation queue.",
+        "model_response": "Yes, if you reserve 'Python Crash Course' within the current loan period, the loan period will be extended to ensure timely return."
+    },
+    {
+        "instruction": "Inform whether a user can place a hold on 'Database Systems' if it has already been renewed twice at GITAM Library.",
+        "input": "Can I place a hold on 'Database Systems' that I've already renewed twice at GITAM Library?",
+        "output": "**Renewal Limit Policy:**\n If a book like *Database Systems* has reached the maximum renewal limit, you must return it before reserving it again.",
+        "model_response": "Yes, you can hold 'Database Systems' for up to 14 days if it has already been renewed twice."
+    },
+    {
+        "instruction": "Clarify if reserving a book prevents recalls at GITAM Library.",
+        "input": "Does reserving a book I'm using stop recalls at GITAM Library?",
+        "output": "**Recall Policy:**\n No, reservations do not prevent recall requests. If another user places a recall, you must return the book by the adjusted due date.",
+        "model_response": "Yes, reserving a book prevents recalls. If you return the book within 7 days, the library will notify you and allow you to return it."
+    },
+    {
+        "instruction": "Explain how GITAM Library notifies users about reserved books like 'The Hobbit'.",
+        "input": "How will GITAM Library notify me about my reserved copy of 'The Hobbit'?",
+        "output": "**Notification Process:**\n GITAM Library sends email and mobile app notifications when *The Hobbit* is ready for pickup. Ensure your contact details are updated in the library system.",
+        "model_response": "**Notification Process:**\n *Notification Process:**\n *GITAM Library sends a notification email to the user's email address* when a reserved book like *The Hobbit* is available. *The Hobbit* is available for pickup at the library."
+    },
+    {
+        "instruction": "Confirm whether SMS alerts are available for reserved books at GITAM Library.",
+        "input": "Can I get SMS alerts for reserved books at GITAM Library?",
+        "output": "**SMS Notifications:**\n GITAM Library may offer SMS alerts for reserved books. Check with library staff or enable SMS preferences in your user profile.",
+        "model_response": "Yes, SMS alerts are available for reserved books. Log into the library portal to receive notifications."
+    },
+    {
+        "instruction": "Explain where email notifications about reservations from GITAM Library are sent.",
+        "input": "Where do email notifications from GITAM Library about reservations go?",
+        "output": "**Email Notifications:**\n Reservation alerts are sent to your registered university email. Check spam folders if you do not receive notifications.",
+        "model_response": "**Email Notification Process:**\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:*\n *Email Notification Process:"
+    },
+    {
+        "instruction": "Clarify how often GITAM Library reminds users about uncollected reservations.",
+        "input": "How often does GITAM Library remind about uncollected reservations?",
+        "output": "**Reminder Frequency:**\n The library typically sends one reminder before canceling an uncollected reservation. You can check your library account for real-time status.",
+        "model_response": "**GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:**\n *GITAM Library reminders:"
+    },
+    {
+        "instruction": "Inform whether users can change their notification preferences for reservations at GITAM Library.",
+        "input": "Can I change my notification preferences for reservations at GITAM Library?",
+        "output": "**Notification Preferences:**\n Yes, users can adjust notification settings for reservations through the library portal or by contacting library staff.",
+        "model_response": "Yes, you can change your notification preferences for reservations at GITAM Library. Visit the library's online portal to change your preferences."
+    },
+    {
+        "instruction": "Provide information on where reserved books are collected at GITAM Library.",
+        "input": "Where do I collect reserved books at GITAM Library?",
+        "output": "**Pickup Location:**\n Reserved books can be collected from the designated reservation desk or circulation counter at GITAM Library. Check with library staff for specific location details.",
+        "model_response": "**Where do I collect reserved books at GITAM Library?**\n *GITAM Library's Reservation Policy:*\n *Reserved Books:* *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho *The Alchemist* \u00e2\u20ac\ufffd"
+    },
+    {
+        "instruction": "Explain the reservation pickup timings at GITAM Library.",
+        "input": "What are GITAM Library's reservation pickup timings?",
+        "output": "**Pickup Timings:**\n Reserved books can be picked up during library operating hours. Some branches may have specific pickup slots, so verify timings through the library portal.",
+        "model_response": "**Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**\n *Reservation Pickup Timings:**"
+    },
+    {
+        "instruction": "Clarify if someone else can collect a reserved book at GITAM Library.",
+        "input": "Can someone else collect my reserved 'Marketing Management' book at GITAM Library?",
+        "output": "**Proxy Pickup Policy:**\n A designated person can collect *Marketing Management* on your behalf if they present a written authorization and your student ID.",
+        "model_response": "Yes, someone else can collect 'Marketing Management' by submitting a request to the library."
+    },
+    {
+        "instruction": "Confirm whether an ID is required to pick up reserved materials at GITAM Library.",
+        "input": "Do I need my ID to pick up reserved materials at GITAM Library?",
+        "output": "**ID Requirement:**\n Yes, a valid student or faculty ID is mandatory for collecting reserved materials at GITAM Library.",
+        "model_response": "Yes, you need your ID to pick up reserved materials. You can find it in the library's reservation desk."
+    },
+    {
+        "instruction": "Explain what happens if a reserved book is not picked up within the deadline.",
+        "input": "What if I miss the pickup deadline for 'Corporate Finance' at GITAM Library?",
+        "output": "**Missed Pickup Policy:**\n If you fail to pick up *Corporate Finance* by the deadline, the reservation will be canceled, and the book will be made available to the next user.",
+        "model_response": "If you miss the pickup deadline for 'Corporate Finance' by GITAM Library, you will be charged a late fee of \u00e2\u201a\u00b95 per day."
+    },
+    {
+        "instruction": "Describe the process for canceling a book reservation at GITAM Library.",
+        "input": "How do I cancel my reservation for 'The Silent Patient' at GITAM Library?",
+        "output": "**Cancellation Process:**\n Log into the library portal, navigate to 'My Reservations,' and cancel *The Silent Patient*. Alternatively, visit the circulation desk for assistance.",
+        "model_response": "**Cancellation Process:**\n Log into the library portal and click 'Cancel' on the reservation confirmation email. You will receive a notification when the book is available for pickup."
+    },
+    {
+        "instruction": "Clarify if users can switch between hardcover and ebook formats when reserving books at GITAM Library.",
+        "input": "Can I change my reservation from hardcover to ebook at GITAM Library?",
+        "output": "**Format Change Policy:**\n Format changes are not automatic. You must cancel the hardcover reservation and place a new request for the ebook version if available.",
+        "model_response": "Yes, you can change your reservation from hardcover to ebook. You can log into the library portal to update your book details."
+    },
+    {
+        "instruction": "Explain if there is a penalty for frequently canceling reservations at GITAM Library.",
+        "input": "Is there a penalty for frequently canceling reservations at GITAM Library?",
+        "output": "**Cancellation Policy:**\n While there is no direct penalty, frequent cancellations may impact future reservation privileges if a pattern of misuse is detected.",
+        "model_response": "Yes, if you cancel a reservation within 7 days of the due date, the library charges \u00e2\u201a\u00b95 per day."
+    },
+    {
+        "instruction": "Describe what happens if GITAM Library cancels a reservation unexpectedly.",
+        "input": "What happens if GITAM Library cancels my reservation unexpectedly?",
+        "output": "**Library Cancellation Policy:**\n If a reservation is canceled due to system errors or book unavailability, the library will notify you and suggest alternatives.",
+        "model_response": "If GITAM Library cancels your reservation, you will receive a full refund of the book's purchase price."
+    },
+    {
+        "instruction": "Clarify if reservations can be transferred between students at GITAM Library.",
+        "input": "Can I transfer my reservation for 'The Midnight Library' to another student?",
+        "output": "**Reservation Transfer Policy:**\n Reservations are non-transferable. The other student must place their own hold request for *The Midnight Library*.",
+        "model_response": "Yes, you can transfer your reservation for 'The Midnight Library' to another student. You must log in to the library portal to request the transfer."
+    },
+    {
+        "instruction": "Explain the maximum number of books that can be reserved at GITAM Library.",
+        "input": "What's the maximum number of books I can reserve at GITAM Library?",
+        "output": "**Reservation Limit:**\n The maximum number of reservations varies based on user category. Students may reserve up to 5 books, while faculty members may have a higher limit.",
+        "model_response": "The maximum number of books that can be reserved at GITAM Library is limited to 3."
+    },
+    {
+        "instruction": "Clarify if different editions of a book can be reserved at GITAM Library.",
+        "input": "Can I reserve different editions of 'Introduction to Thermodynamics' at GITAM Library?",
+        "output": "**Edition Reservation Policy:**\n Yes, you can place separate reservations for different editions of *Introduction to Thermodynamics* if they are listed individually in the catalog.",
+        "model_response": "Yes, different editions of 'Introduction to Thermodynamics' can be reserved. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Explain whether multiple copies of the same book can be reserved at GITAM Library.",
+        "input": "Does GITAM Library allow reserving multiple copies of the same book?",
+        "output": "**Copy Reservation Policy:**\n Generally, users can only reserve one copy of a book at a time to ensure fair access for all students.",
+        "model_response": "Yes, multiple copies of the same book can be reserved. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Describe how users can prioritize their reservation queue at GITAM Library.",
+        "input": "How do I prioritize my reservation queue at GITAM Library?",
+        "output": "**Queue Management:**\n The system processes reservations on a first-come, first-served basis. Users cannot manually prioritize requests, but they can cancel and re-reserve for better positioning.",
+        "model_response": "**Priority Queue:**\n *Priority Queue:*\n *Check if I have enough reservation slots*\n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my reservation queue?* \n *Check if I have enough reservation slots* \n *How do I prioritize my"
+    },
+    {
+        "instruction": "Confirm whether books from different GITAM campuses can be reserved simultaneously.",
+        "input": "Can I reserve books from different GITAM campuses simultaneously?",
+        "output": "**Inter-Campus Reservation Policy:**\n Some inter-campus reservations may be allowed, but availability depends on individual campus policies. Contact the library for details.",
+        "model_response": "Yes, books from different GITAM campuses can be reserved simultaneously. Log into the library portal to check if the book is available for pickup."
+    },
+    {
+        "instruction": "Explain how far in advance a book can be reserved at GITAM Library.",
+        "input": "How far in advance can I reserve 'Project Management' at GITAM Library?",
+        "output": "**Advance Reservation Policy:**\n 'Project Management' can be reserved up to 30 days in advance, depending on availability and demand.",
+        "model_response": "**Pre-Sale:**\n *Project Management* by *P.M. Rajesh* is available for pickup at the GITAM library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Clarify if students can reserve books for the next semester.",
+        "input": "Can I reserve books for next semester at GITAM Library?",
+        "output": "**Next Semester Reservations:**\n Reservations for next semester's books open a few weeks before the term begins. Check the library system for specific dates.",
+        "model_response": "Yes, students can reserve books for the next semester at GITAM Library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Confirm if pre-release reservations are available for new books.",
+        "input": "Does GITAM Library allow pre-release reservations for new books?",
+        "output": "**Pre-Release Reservations:**\n New books are added to the catalog upon arrival. Reservations may be allowed after processing and cataloging are complete.",
+        "model_response": "Yes, pre-release reservations for new books are available. Please check the GITAM Library's reservation policies."
+    },
+    {
+        "instruction": "Describe how vacation periods affect book reservations.",
+        "input": "How do vacation periods affect reservations at GITAM Library?",
+        "output": "**Vacation Period Impact:**\n Reservations may be extended or adjusted during vacation periods. Some reservations might be temporarily paused based on library policies.",
+        "model_response": "During vacation periods, all reservations are subject to a **maximum of 7 days**. If not collected within this period, the reservation is canceled and the book is marked **lost**."
+    },
+    {
+        "instruction": "Confirm if book reservations are allowed during semester breaks.",
+        "input": "Can I reserve books during semester breaks at GITAM Library?",
+        "output": "**Semester Break Reservations:**\n Yes, reservations can be placed during semester breaks, but pickup times may be adjusted based on library operating hours.",
+        "model_response": "Yes, you can reserve books during semester breaks at GITAM Library. Please check the library's policies for details."
+    },
+    {
+        "instruction": "Explain if study groups can reserve multiple copies of a book.",
+        "input": "Can study groups reserve multiple copies of 'Quantitative Aptitude' at GITAM Library?",
+        "output": "**Group Reservations:**\n Study groups may request multiple copies of 'Quantitative Aptitude,' but availability depends on demand. Some limits may apply.",
+        "model_response": "Yes, study groups can reserve multiple copies of 'Quantitative Aptitude' at GITAM Library."
+    },
+    {
+        "instruction": "Clarify if student clubs have special reservation privileges.",
+        "input": "Does GITAM Library have special reservation rules for student clubs?",
+        "output": "**Student Club Reservations:**\n Certain student clubs may have access to extended borrowing periods or group reservations upon request.",
+        "model_response": "Yes, student clubs have special reservation privileges. They must notify the library staff in advance and provide a copy of their membership agreement."
+    },
+    {
+        "instruction": "Describe how group reservations for case study books work.",
+        "input": "How do group reservations work for 'Case Study' books at GITAM Library?",
+        "output": "**Case Study Book Reservations:**\n Multiple users can place holds on 'Case Study' books. Some copies may be restricted to short-term borrowing for group access.",
+        "model_response": "Group reservations for 'Case Study' books are available through the library's online portal. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Confirm if faculty can reserve books for an entire class.",
+        "input": "Can faculty reserve books for entire classes at GITAM Library?",
+        "output": "**Faculty Reservations:**\n Faculty members can request reserved reading materials for entire classes, subject to library approval and availability.",
+        "model_response": "Yes, faculty members can reserve books for entire classes at GITAM Library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Explain if there are group reservation limits during exams.",
+        "input": "Are there group reservation limits during exams at GITAM Library?",
+        "output": "**Exam Period Limits:**\n During exams, reservations may be limited to ensure fair access. Group reservations may have reduced loan durations.",
+        "model_response": "Yes, during exams, groups may be limited to 10 students."
+    },
+    {
+        "instruction": "Describe the process for reserving thesis copies.",
+        "input": "How do I reserve thesis copies at GITAM Library?",
+        "output": "**Thesis Reservation Process:**\n Thesis copies can be reserved through the library catalog, but access may be restricted to in-library use only.",
+        "model_response": "**Essential Information:**\n *Essential Information:*\n *How to Reserve* \n *Log into the library portal* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis* available* \n *Check if there are any copies of *Thesis"
+    },
+    {
+        "instruction": "Confirm if archival materials can be placed on hold.",
+        "input": "Can I place holds on archival materials at GITAM Library?",
+        "output": "**Archival Materials Policy:**\n Archival materials are typically non-circulating and cannot be reserved. Access may require special permission.",
+        "model_response": "Yes, archival materials can be held for up to 7 days."
+    },
+    {
+        "instruction": "Explain how rare books can be reserved.",
+        "input": "What's the process to reserve rare books at GITAM Library?",
+        "output": "**Rare Book Reservation:**\n Rare books are available for reference only and cannot be reserved for borrowing. Access may require prior approval.",
+        "model_response": "Rare books can be reserved through the library's online portal. Please check the library's catalog or contact the library staff for details."
+    },
+    {
+        "instruction": "Clarify if journal volumes can be reserved.",
+        "input": "Does GITAM Library allow reservations for journal volumes?",
+        "output": "**Journal Reservation Policy:**\n Journal volumes are typically for in-library use and cannot be reserved. Some digital versions may be available online.",
+        "model_response": "Yes, journal volumes can be reserved through the library portal."
+    },
+    {
+        "instruction": "Confirm if multimedia materials can be reserved through the library system.",
+        "input": "Can I reserve multimedia materials through GITAM Library's system?",
+        "output": "**Multimedia Reservation:**\n Some multimedia materials can be reserved, but access policies vary. Digital content may be restricted to on-campus use.",
+        "model_response": "Yes, multimedia materials can be reserved through the GITAM Library's system. Log into the library portal to check if materials are available for pickup."
+    },
+    {
+        "instruction": "Explain why the 'Reserve' button is missing for a specific book.",
+        "input": "Why can't I see the 'Reserve' button for 'The Innovator's Dilemma' at GITAM Library?",
+        "output": "**Missing 'Reserve' Button:**\n 'The Innovator's Dilemma' may be classified as reference-only, currently checked out, or not eligible for reservations.",
+        "model_response": "'The Innovator's Dilemma' is available for reservation at the GITAM library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Provide troubleshooting steps for reservation system errors.",
+        "input": "What should I do if GITAM Library's reservation system gives an error?",
+        "output": "**Troubleshooting Errors:**\n Ensure you are logged in with valid credentials. Clear your browser cache or try a different device. If issues persist, contact library support.",
+        "model_response": "If you receive an error message when attempting to reserve 'The Fault in Our Stars,' contact the library support team. They may be able to help you resolve the issue."
+    },
+    {
+        "instruction": "Explain how to report a broken reservation link.",
+        "input": "How do I report a broken reservation link for 'Computer Networks'?",
+        "output": "**Reporting Broken Links:**\n If the reservation link for 'Computer Networks' is not working, notify the library via email or visit the help desk.",
+        "model_response": "You can report a broken reservation link by logging into the reservation portal or emailing support@gITAMlibrary.edu."
+    },
+    {
+        "instruction": "Investigate why a reservation keeps disappearing.",
+        "input": "Why does my reservation for 'The Power of Now' keep disappearing at GITAM Library?",
+        "output": "**Disappearing Reservations:**\n This may happen due to system errors, expired holds, or policy restrictions. Check your reservation history or contact library staff for clarification.",
+        "model_response": "**Reservation Disappearance:**\n *The Power of Now* is available for reservation at GITAM Library. If you have not received a confirmation email, please check the library's email or contact the library staff. If you still have not received a confirmation email, please contact the library staff."
+    },
+    {
+        "instruction": "Confirm if the reservation system is currently down.",
+        "input": "Is GITAM Library's reservation system down right now?",
+        "output": "**System Status:**\n Visit the library website or contact support to check if the reservation system is undergoing maintenance.",
+        "model_response": "Yes, the reservation system is currently down. Please check the library's website for updates."
+    },
+    {
+        "instruction": "Explain if books from other libraries can be reserved.",
+        "input": "Can I reserve books from other libraries through GITAM Library?",
+        "output": "**Interlibrary Reservations:**\n Some books may be available through interlibrary loan. Check with the library for eligibility and processing times.",
+        "model_response": "Yes, books from other libraries can be reserved through GITAM Library. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Describe the processing time for interlibrary reservations.",
+        "input": "How long do interlibrary reservations take at GITAM Library?",
+        "output": "**Interlibrary Reservation Time:**\n The time frame varies based on availability and shipping. Typically, it can take between 5 to 14 days.",
+        "model_response": "Interlibrary reservations take 7-14 days to process."
+    },
+    {
+        "instruction": "Confirm if additional charges apply for interlibrary reservations.",
+        "input": "Are there extra charges for reserving books from partner libraries at GITAM?",
+        "output": "**Interlibrary Reservation Fees:**\n Charges depend on the lending institution\u00e2\u20ac\u2122s policies. Some interlibrary loans may be free, while others have a nominal fee.",
+        "model_response": "Yes, additional charges apply for interlibrary reservations. Please check with the library for details."
+    },
+    {
+        "instruction": "Explain how to reserve articles through document delivery.",
+        "input": "Can I reserve articles through GITAM Library's document delivery?",
+        "output": "**Document Delivery Reservations:**\n Articles can be requested through the document delivery service. Availability and access depend on copyright agreements.",
+        "model_response": "Yes, you can reserve articles through GITAM Library's document delivery. Log into the library portal to log in to access them."
+    },
+    {
+        "instruction": "Explain how to track an interlibrary reservation.",
+        "input": "How do I track my interlibrary reservation at GITAM Library?",
+        "output": "**Tracking Interlibrary Reservations:**\n Log in to the library portal to check status updates, or contact the interlibrary loan department for tracking details.",
+        "model_response": "Log into the library portal to check if your reservation is currently available. If not, contact the library staff to confirm."
+    },
+    {
+        "instruction": "Clarify if rush reservations are available during exams.",
+        "input": "Does GITAM Library have rush reservation options for exam periods?",
+        "output": "**Rush Reservations:**\n Priority may be given to academic materials needed for exams. Availability depends on demand and library policies.",
+        "model_response": "Yes, during exam periods, GITAM Library offers a **one-day grace period** for all reserved books."
+    },
+    {
+        "instruction": "Confirm if priority processing is available for specific books.",
+        "input": "Can I request priority processing for 'Circuit Theory' at GITAM Library?",
+        "output": "**Priority Processing:**\n Faculty recommendations or high-demand materials like 'Circuit Theory' may be processed faster upon request.",
+        "model_response": "Yes, priority processing is available for 'Circuit Theory' by submitting a request to the library staff."
+    },
+    {
+        "instruction": "Describe the fastest way to reserve a book for assignments.",
+        "input": "What's the fastest way to reserve a book needed for assignments at GITAM Library?",
+        "output": "**Fastest Reservation Method:**\n Use the online portal for immediate reservations. If urgent, visit the library help desk for assistance.",
+        "model_response": "**Fastest Way to Reserve:**\n Log into the GITAM Library portal and click 'Reserve' under 'My Account' to receive notification when the book is available."
+    },
+    {
+        "instruction": "Confirm if graduating students receive expedited reservations.",
+        "input": "Does GITAM Library expedite reservations for graduating students?",
+        "output": "**Graduating Student Priority:**\n Some reservations for final-year students may be prioritized, especially for thesis or project-related books.",
+        "model_response": "Yes, if you graduate within 3 days of the due date, you receive a **one-day extension** to ensure your reservation is processed."
+    },
+    {
+        "instruction": "Explain if faculty can place urgent reservations.",
+        "input": "Can faculty place urgent reservations at GITAM Library?",
+        "output": "**Faculty Urgent Reservations:**\n Faculty members can request priority reservations for course materials and research resources.",
+        "model_response": "Yes, faculty can place urgent reservations at GITAM Library. Please check the library's reservation policies."
+    },
+    {
+        "instruction": "Explain how differently-abled students can reserve books.",
+        "input": "How do I reserve books as a differently-abled student at GITAM Library?",
+        "output": "**Differently-Abled Student Reservations:**\n GITAM Library provides priority reservations and extended hold periods for differently-abled students. Contact the library for personalized assistance.",
+        "model_response": "You can reserve books online through the library portal or at the library help desk."
+    },
+    {
+        "instruction": "Confirm if alumni can reserve books.",
+        "input": "Can alumni reserve books through GITAM Library's system?",
+        "output": "**Alumni Reservations:**\n Alumni may have limited borrowing privileges but typically cannot reserve books. Special permissions can be requested.",
+        "model_response": "Yes, alumni can reserve books through GITAM Library's system. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Suggest solutions for reserving frequently checked-out books.",
+        "input": "What if I need to reserve a book that's always checked out at GITAM Library?",
+        "output": "**High-Demand Books:**\n Place an early reservation or check alternative copies. The library may acquire additional copies for high-demand titles.",
+        "model_response": "You can reserve books online through the library portal or at the library help desk."
+    },
+    {
+        "instruction": "Clarify if lost-but-returned books can be reserved.",
+        "input": "Does GITAM Library allow reservations for lost-but-returned books?",
+        "output": "**Lost-Returned Books:**\n Once a lost book is returned and processed, it becomes reservable. Check availability through the catalog.",
+        "model_response": "Yes, lost-but-returned books can be reserved. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Explain if fines affect reservations.",
+        "input": "Can I reserve books while my account has fines at GITAM Library?",
+        "output": "**Fines and Reservations:**\n Accounts with unpaid fines may be restricted from making new reservations. Clear dues to regain access.",
+        "model_response": "Yes, if you have fines, you may be required to pay late fees or cancel reservations."
+    },
+    {
+        "instruction": "Guide users on finding reservable copies of a specific book.",
+        "input": "How do I find reservable copies of 'The Design of Everyday Things' at GITAM Library?",
+        "output": "**Finding Reservable Copies:**\n Use the online catalog\u00e2\u20ac\u2122s filter for 'Reservable' books, or visit the help desk for availability details.",
+        "model_response": "'The Design of Everyday Things' is available for reservation at the GITAM library."
+    },
+    {
+        "instruction": "Confirm if books marked 'Available Soon' can be reserved.",
+        "input": "Can I reserve books that show 'Available Soon' at GITAM Library?",
+        "output": "**'Available Soon' Books:**\n These books are in processing and may not yet be reservable. Check back later or contact library staff.",
+        "model_response": "Yes, books marked 'Available Soon' can be reserved through the library portal."
+    },
+    {
+        "instruction": "Explain why some books lack a reserve option.",
+        "input": "Why can't I find the reserve option for some books at GITAM Library?",
+        "output": "**Missing Reserve Option:**\n Books may be reference-only, on restricted access, or currently unavailable. Contact library staff for details.",
+        "model_response": "**Reserve Options:**\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \u00e2\u20ac\u201c Paulo Coelho\n *The Alchemist* \ufffd"
+    },
+    {
+        "instruction": "Describe how to filter for reservable books.",
+        "input": "How do I filter for only reservable books in GITAM Library's catalog?",
+        "output": "**Filtering Reservable Books:**\n Use the online catalog\u00e2\u20ac\u2122s 'Reservable' filter or sort by 'Availability' to see books eligible for reservation.",
+        "model_response": "You can filter for reservable books by logging into the library portal. You can also request a reservation through the library's online portal."
+    },
+    {
+        "instruction": "Confirm if books in processing can be reserved.",
+        "input": "Can I reserve books currently being processed at GITAM Library?",
+        "output": "**Books in Processing:**\n Some books in processing may be available for reservation. Check with library staff for estimated release dates.",
+        "model_response": "Yes, you can reserve books currently being processed at GITAM Library. Please check the library's online catalog or contact the library staff for details."
+    },
+    {
+        "instruction": "Explain if reservation limits change during finals.",
+        "input": "Are reservation limits different during finals at GITAM Library?",
+        "output": "**Finals Reservation Limits:**\n The library may enforce stricter reservation limits during exams to ensure fair access to all students.",
+        "model_response": "Yes, during finals, the library limits the number of reservations to 10 per day."
+    },
+    {
+        "instruction": "Describe summer course reservation policies.",
+        "input": "How do summer course reservations work at GITAM Library?",
+        "output": "**Summer Course Reservations:**\n Students enrolled in summer courses can reserve required textbooks. Availability depends on course requirements.",
+        "model_response": "**Summer Course Reservation Policy:**\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:*\n *Summer Course Reservation Process:"
+    },
+    {
+        "instruction": "Explain if reservations are cleared between semesters.",
+        "input": "Does GITAM Library clear all reservations between semesters?",
+        "output": "**Reservation Clearance:**\n Some reservations may be reset at the end of a semester, especially for textbooks and high-demand materials.",
+        "model_response": "Yes, if you have reserved 'The Algorithm Design Manual' for more than 3 months, you will receive a notification that your reservation is cleared."
+    },
+    {
+        "instruction": "Confirm if next year's textbooks can be reserved in advance.",
+        "input": "Can I reserve next year's textbooks in advance at GITAM Library?",
+        "output": "**Advance Textbook Reservations:**\n Reservations for next semester\u00e2\u20ac\u2122s textbooks usually open a few weeks before classes begin.",
+        "model_response": "Yes, you can reserve textbooks online through the GITAM Library portal."
+    },
+    {
+        "instruction": "Identify the busiest reservation period.",
+        "input": "What's the busiest reservation period at GITAM Library?",
+        "output": "**Peak Reservation Times:**\n The busiest periods are before midterms and finals when students reserve textbooks and reference materials.",
+        "model_response": "The busiest reservation period is typically from 7:00 AM to 9:00 PM on weekdays and from 9:00 AM to 5:00 PM on weekends."
+    },
+    {
+        "instruction": "Guide users on accessing GITAM Library's digital archive for engineering journals.",
+        "input": "How do I access GITAM Library's digital archive of engineering journals?",
+        "output": "**Accessing Engineering Journals:**\n GITAM Library provides digital access to engineering journals via its online portal. Log in with your institutional credentials and navigate to the 'E-Resources' section.",
+        "model_response": "Log into the GITAM Library portal using your university credentials. You can access journals through the library portal or through the library's digital archive."
+    },
+    {
+        "instruction": "Explain login requirements for the e-thesis repository.",
+        "input": "What login credentials are needed for GITAM Library's e-thesis repository?",
+        "output": "**E-Thesis Repository Login:**\n Use your university-provided student or faculty credentials to access the e-thesis repository. If you encounter issues, contact the library help desk.",
+        "model_response": "**Login Requirements:**\n *GITAM Library e-thesis repository login credentials*\n *GITAM Library login credentials*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*\n *GITAM Library e-thesis repository password*"
+    },
+    {
+        "instruction": "Confirm if off-campus students can use digital archives.",
+        "input": "Can off-campus students use GITAM Library's digital archives?",
+        "output": "**Off-Campus Access:**\n Off-campus students can access digital archives using remote authentication methods such as VPN or institutional login.",
+        "model_response": "Yes, off-campus students can use GITAM Library's digital archives. However, they must be registered with the library's IT support team."
+    },
+    {
+        "instruction": "Verify if VPN access is available for restricted digital collections.",
+        "input": "Does GITAM Library provide VPN access to restricted digital collections?",
+        "output": "**VPN Access to Digital Collections:**\n The library offers VPN access for authorized users. Contact the IT support team for setup instructions.",
+        "model_response": "Yes, VPN access is available for restricted digital collections. Log in to the library portal to access it."
+    },
+    {
+        "instruction": "Troubleshoot access issues for 'IEEE Xplore' through GITAM Library's portal.",
+        "input": "Why can't I access 'IEEE Xplore' through GITAM Library's portal?",
+        "output": "**IEEE Xplore Access Issues:**\n Ensure you are logged in with valid credentials. If the issue persists, check if the library's subscription is active or contact library support.",
+        "model_response": "'IEEE Xplore' is available only in physical format at the GITAM library."
+    },
+    {
+        "instruction": "List platforms hosting GITAM Library's e-book collections.",
+        "input": "Which platforms host GITAM Library's e-book collections?",
+        "output": "**E-Book Platforms:**\n GITAM Library provides access to e-books through platforms such as ProQuest, SpringerLink, and Wiley Online Library.",
+        "model_response": "**Platforms for e-book collections:** \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's e-book collection is available at Shelf E6* \n- *GITAM Library's"
+    },
+    {
+        "instruction": "Explain how to download 'Introduction to Machine Learning' from the digital archive.",
+        "input": "How do I download 'Introduction to Machine Learning' from GITAM Library's digital archive?",
+        "output": "**Downloading E-Books:**\n Search for 'Introduction to Machine Learning' in the library's e-book portal. If available, select 'Download' or 'Read Online' based on access permissions.",
+        "model_response": "'Introduction to Machine Learning' is available as an e-book. You can access it in the AI & Machine Learning section of the library\u00e2\u20ac\u2122s digital archive."
+    },
+    {
+        "instruction": "Confirm if 'Atomic Habits' is available for online reading.",
+        "input": "Can I read 'Atomic Habits' online through GITAM Library's e-book portal?",
+        "output": "**Online Access for 'Atomic Habits':**\n Check the e-book portal for availability. If the digital version is accessible, select 'Read Online' to start reading.",
+        "model_response": "'Atomic Habits' is available as an e-book. Log in to the library portal to access it under 'Books' in the library portal."
+    },
+    {
+        "instruction": "Verify if a digital copy of 'The Lean Startup' exists.",
+        "input": "Does GITAM Library have a digital copy of 'The Lean Startup'?",
+        "output": "**Digital Copy Availability:**\n Search for 'The Lean Startup' in the library's digital collection. If not available, request an acquisition through the library portal.",
+        "model_response": "'The Lean Startup' is available at Shelf R4 in the GITAM library."
+    },
+    {
+        "instruction": "Explain the loan period for e-books.",
+        "input": "What's the loan period for e-books in GITAM Library's digital collection?",
+        "output": "**E-Book Loan Period:**\n The loan period varies depending on the publisher. Some e-books allow unlimited access, while others may have a borrowing period of 7 to 14 days.",
+        "model_response": "The loan period for e-books is typically for 7-14 days."
+    },
+    {
+        "instruction": "Guide users on searching for ACM Digital Library access through GITAM Library.",
+        "input": "How do I search for ACM digital library access through GITAM Library?",
+        "output": "**Accessing ACM Digital Library:**\n Navigate to GITAM Library\u00e2\u20ac\u2122s e-resources section and search for 'ACM Digital Library.' Use your institutional login credentials to access research papers and conference proceedings.",
+        "model_response": "You can search for ACM digital library access through the library portal. You can find it under the digital library section."
+    },
+    {
+        "instruction": "Explain if full PDFs can be downloaded from SpringerLink via GITAM Library.",
+        "input": "Can I download full PDFs from SpringerLink via GITAM Library?",
+        "output": "**SpringerLink Access:**\n GITAM Library provides access to full-text articles and e-books on SpringerLink. However, some content may have download restrictions depending on the subscription type.",
+        "model_response": "Yes, full PDFs can be downloaded from SpringerLink via the library portal."
+    },
+    {
+        "instruction": "Confirm whether JAMA medical journals are accessible through GITAM Library.",
+        "input": "Does GITAM Library provide access to the JAMA medical journals?",
+        "output": "**JAMA Access:**\n Check the library\u00e2\u20ac\u2122s e-journal portal for JAMA availability. If not subscribed, access may be possible via interlibrary loan or document delivery services.",
+        "model_response": "Yes, JAMA medical journals are available through the GITAM library portal."
+    },
+    {
+        "instruction": "Explain how to find IEEE conference proceedings in GITAM Library\u00e2\u20ac\u2122s digital resources.",
+        "input": "Where can I find IEEE conference proceedings in GITAM Library's digital resources?",
+        "output": "**IEEE Conference Proceedings:**\n Search the IEEE Xplore database through the library\u00e2\u20ac\u2122s e-resources portal. Use keywords or filters to locate specific conference papers.",
+        "model_response": "**E-Book:** \n1. \u00c2 IEEE Conference Proceedings: \n- \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2 \u00c2"
+    },
+    {
+        "instruction": "Describe the currency of JSTOR holdings in GITAM Library\u00e2\u20ac\u2122s subscription.",
+        "input": "How current are the JSTOR holdings in GITAM Library's subscription?",
+        "output": "**JSTOR Holdings:**\n JSTOR often provides access to historical journal archives rather than the most recent issues. Check GITAM Library\u00e2\u20ac\u2122s subscription details for specific access periods.",
+        "model_response": "The JSTOR holdings are available for checkout in the library\u00e2\u20ac\u2122s digital catalog."
+    },
+    {
+        "instruction": "Guide users on searching past PhD theses in the digital repository.",
+        "input": "How do I search past PhD theses in GITAM Library's digital repository?",
+        "output": "**Searching PhD Theses:**\n Use the library\u00e2\u20ac\u2122s digital repository and enter relevant keywords or author names. Apply filters such as year or department for more precise results.",
+        "model_response": "**Searching Past PhD Theses in GITAM Library's Digital Repository:** \n1. Visit the GITAM Library portal and log in with your university credentials. \n2. Search for the PhD thesis title in the library portal. \n3. Click 'Find' to access the thesis. \n4. Check if the thesis is available online through the GITAM Library portal. \n5. If not, contact the library staff to request a copy. \n6. \n7. \n8. \n9. \n10. \n11. \n12. \n13. \n14. \n15. \n16. \n17. \n18. \n19. \n20. \n21. \n22. \n23. \n24. \n25. \n26. \n27. \n28. \n29. \n30. \n31. \n32. \n33. \n34. \n35. \n36. \n37. \n38. \n39. \n40. \n41. \n42."
+    },
+    {
+        "instruction": "Explain if MBA project reports are available for download.",
+        "input": "Can I download MBA project reports from GITAM Library's archive?",
+        "output": "**MBA Project Reports:**\n Some MBA project reports may be accessible through the digital repository. Availability depends on institutional policies regarding student research publications.",
+        "model_response": "Yes, MBA project reports are available for download. Log into the library portal to access them."
+    },
+    {
+        "instruction": "Confirm if digitized copies of award-winning theses are available.",
+        "input": "Does GITAM Library have digitized copies of award-winning theses?",
+        "output": "**Award-Winning Theses:**\n The digital archive may include selected award-winning theses. Check the repository under the 'Special Collections' section or inquire with library staff.",
+        "model_response": "Yes, GITAM Library has digitized copies of award-winning theses, including 'The Algorithm Design Manual' by Steven Skiena, 'The Elements of Statistical Learning' by Trevor Hastie, and 'The Algorithm Design Manual' by Steven Skiena."
+    },
+    {
+        "instruction": "Guide users on citing a dissertation from the digital collection.",
+        "input": "How do I cite a dissertation from GITAM Library's digital collection?",
+        "output": "**Citing a Dissertation:**\n Use standard citation styles such as APA, MLA, or Chicago. Include author name, title, year, institution, and repository link if available.",
+        "model_response": "You can cite a dissertation from GITAM Library's digital collection by submitting a digital copy of the original research paper. You can find the citation format in the library's digital catalog."
+    },
+    {
+        "instruction": "Explain if undergraduate honors theses are available in the e-archive.",
+        "input": "Are undergraduate honors theses available in GITAM Library's e-archive?",
+        "output": "**Undergraduate Theses:**\n Availability varies by department. Some honors theses may be digitized, while others might only be accessible in print format.",
+        "model_response": "Yes, undergraduate honors theses are available in the GITAM Library's e-archive."
+    },
+    {
+        "instruction": "Guide users on using advanced search in the digital archive.",
+        "input": "How do I use the advanced search in GITAM Library's digital archive?",
+        "output": "**Advanced Search:**\n Use the digital repository\u00e2\u20ac\u2122s 'Advanced Search' feature to apply filters like publication year, author, subject area, and document type.",
+        "model_response": "Use the advanced search to find books like 'The Algorithm Design Manual' by Steven Skiena, 'The Algorithm Design Manual' by Steven Skiena, and 'The Algorithm Design Manual' by Steven Skiena."
+    },
+    {
+        "instruction": "Explain how to create alerts for new additions to e-collections.",
+        "input": "Can I create alerts for new additions to GITAM Library's e-collections?",
+        "output": "**Creating Alerts:**\n Log in to the digital archive and enable 'New Content Alerts' under your user preferences to receive notifications on recent additions.",
+        "model_response": "**Alerts for New Additions:**\n *GITAM Library Alerts* is available at *Library.GITAM.edu* or *Library.GITAM.edu/alerts* for notifications."
+    },
+    {
+        "instruction": "Guide users on finding the 'Save Search' feature in the digital repository.",
+        "input": "Where's the 'Save Search' feature in GITAM Library's digital repository?",
+        "output": "**Saving Searches:**\n The 'Save Search' option is available under your account settings. This allows you to revisit previous queries without re-entering search criteria.",
+        "model_response": "'Save Search' is available in the digital repository for users to access. Log in to the library portal to access it under the library portal."
+    },
+    {
+        "instruction": "Explain how to filter search results by date.",
+        "input": "How do I filter search results by date in GITAM Library's e-resources?",
+        "output": "**Filtering by Date:**\n Use the 'Publication Date' filter in the search interface to narrow results by specific years or date ranges.",
+        "model_response": "You can filter search results by date using the 'Filter by Date' option in the library's e-resources."
+    },
+    {
+        "instruction": "Confirm if the digital platform supports citation exports.",
+        "input": "Does GITAM Library's digital platform support citation exports?",
+        "output": "**Citation Export Support:**\n The digital repository allows citation exports in formats like BibTeX, EndNote, and APA. Check the 'Export' option within the document view.",
+        "model_response": "Yes, the GITAM Library's digital platform supports citation export requests. Log in to the library portal to access the export options."
+    },
+    {
+        "instruction": "Explain how to access GITAM Library's digital collections via mobile app.",
+        "input": "Is there a mobile app for GITAM Library's digital collections?",
+        "output": "**GITAM Library Mobile App:**\n GITAM Library offers a mobile app for accessing digital collections, e-books, and research databases. Download it from the app store or GITAM Library's official website for easy access on the go.",
+        "model_response": "Yes, GITAM Library offers an e-book version of its digital collections. Visit the library portal to access it."
+    },
+    {
+        "instruction": "Guide on reading Elsevier e-books on tablets through GITAM Library.",
+        "input": "How do I read Elsevier e-books on my tablet through GITAM Library?",
+        "output": "**Reading Elsevier E-Books on Tablet:**\n Access Elsevier e-books directly through the GITAM Library portal. You can read them using an e-reader app like Adobe Digital Editions or a compatible PDF viewer.",
+        "model_response": "**E-Books on Elsevier E-Books:** \n- *E-Book:* *The Elsevier Guide to E-Books* \n- *The Elsevier Guide to E-Books* is available at GITAM Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital Library. \n- *The Elsevier Guide to E-Books* is available in the Digital"
+    },
+    {
+        "instruction": "Instruct on how to download PDFs from GITAM Library's archives to mobile phones.",
+        "input": "Can I download PDFs from GITAM Library's archives to my phone?",
+        "output": "**Downloading PDFs on Mobile:**\n You can download PDFs directly to your mobile device from the library's digital archive, provided they are not restricted by copyright or other licensing conditions.",
+        "model_response": "Yes, PDFs can be downloaded from the GITAM Library's archives. You can find them in the library\u00e2\u20ac\u2122s digital resources."
+    },
+    {
+        "instruction": "Troubleshoot issues with loading the digital archive on mobile browsers.",
+        "input": "Why won't the digital archive load on my mobile browser?",
+        "output": "**Digital Archive Loading Issues on Mobile:**\n Ensure your mobile browser is up-to-date. Clearing your browser cache or using a different browser may resolve the issue. Consider using the official GITAM Library mobile app for optimal performance.",
+        "model_response": "The digital archive is available only in physical format. You can access it in the GITAM library\u00e2\u20ac\u2122s digital archive."
+    },
+    {
+        "instruction": "Recommend e-reader apps for accessing GITAM Library's digital content.",
+        "input": "Does GITAM Library recommend any specific e-reader apps?",
+        "output": "**Recommended E-Reader Apps:**\n GITAM Library recommends apps like Adobe Digital Editions, Bluefire Reader, and Kindle for reading e-books from the digital collection.",
+        "model_response": "**E-Reader Apps:** \n- *E-Reader for Android* by GITAM Library \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for download. Visit the library's digital resources to access it. \n- *E-Reader for Android* by GITAM Library is available for"
+    },
+    {
+        "instruction": "Explain how to access GITAM's historical photographs in the digital archive.",
+        "input": "How do I access GITAM's historical photographs in the digital archive?",
+        "output": "**Accessing Historical Photographs:**\n GITAM's digital archive includes historical photographs. Search for them using keywords like 'historical photographs' or visit the 'special collections' section on the library's digital portal.",
+        "model_response": "You can access historical photographs in the GITAM Digital Archive. Log into the library portal to access them under 'Historical Photographs' in the library's digital collection."
+    },
+    {
+        "instruction": "Inquire about digitized rare books in GITAM Library's special collections.",
+        "input": "Does GITAM Library have digitized rare books in its special collections?",
+        "output": "**Digitized Rare Books in Special Collections:**\n GITAM Library's special collections include rare digitized books. You can search for these books using the library's digital archive search function or contact library staff for assistance.",
+        "model_response": "Yes, GITAM Library has digitized rare books in its special collections. Please check with the library staff for availability."
+    },
+    {
+        "instruction": "Guide on viewing convocation speeches in GITAM Library's multimedia archive.",
+        "input": "Can I view convocation speeches in GITAM Library's multimedia archive?",
+        "output": "**Viewing Convocation Speeches:**\n Convocation speeches are available in GITAM Library's multimedia archive. Use the search function on the library\u00e2\u20ac\u2122s digital platform or browse under 'multimedia collections.'",
+        "model_response": "Yes, you can view convocation speeches in the GITAM Library's multimedia archive. Log into the library portal to access them under the Convocation & Speeches section."
+    },
+    {
+        "instruction": "Locate digitized college magazines in GITAM Library's repository.",
+        "input": "Where are the digitized college magazines in GITAM Library's repository?",
+        "output": "**Digitized College Magazines:**\n You can find digitized college magazines in GITAM Library's digital repository by searching for 'college magazines' or visiting the 'special collections' section.",
+        "model_response": "**Digital College Magazine Repository:** \n1. *The Harvard Business Review* \n2. \n2.1. \n2.1.1. \n2.1.1.1. \n2.1.1.2. \n2.1.2.1. \n2.1.2.2.1. \n2.1.2.3. \n2.1.2.4. \n2.1.2.5. \n2.1.2.6. \n2.1.2.7. \n2.1.2.8. \n2.1.2.9. \n2.1.2.10. \n2.1.2.11. \n2.1.2.12. \n2.1.2.13. \n2.1.2.14. \n2.1.2.15. \n2.1.2.16. \n2.1.2.17. \n2.1.2.18. \n2.1.2.19."
+    },
+    {
+        "instruction": "Find founder's day materials in GITAM Library's digital archives.",
+        "input": "How do I find founder's day materials in the digital archives?",
+        "output": "**Finding Founder's Day Materials:**\n Search for 'Founder's Day' in the library\u00e2\u20ac\u2122s digital archive search bar to access related materials. These may include speeches, documents, and photos.",
+        "model_response": "**Founder's Day Materials:** \n1. *The Founder\u00e2\u20ac\u2122s Day Guide* \u00e2\u20ac\u201c Eric Ries \n2. *The Founder\u00e2\u20ac\u2122s Day Book* \u00e2\u20ac\u201c Eric Ries \n3. *The Founder\u00e2\u20ac\u2122s Day Guide* \u00e2\u20ac\u201c Eric Ries \n4. *The Founder\u00e2\u20acs Day Book* \u00e2\u20ac\u201c Eric Ries \n5. *The Founder\u00e2\u20acs Day Guide* \u00e2\u20ac\u201c Eric Ries \n6. *The Founder\u00e2\u20acs Day Book* \u00e2\u20ac\u201c Eric Ries \n7. *The Founder\u00e2\u20acs Day Guide* \u00e2\u20ac\u201c Eric Ries \n8. *The Founder\u00e2\u20acs Day Guide* \u00e2\u20ac\u201c Eric Ries \n9. *The Founder\u00e2\u20acs Day Guide* \u00e2\u20ac\u201c Eric Ries \n10. *The Founder\u00e2\u20acs Day Guide* \u00e2\u20ac\u201c Eric Ries \n11. *The Founder\u00e2s Day Guide* \u00e2\u20ac\u201c Eric Ries \n12. *The Founder\u00e2s"
+    },
+    {
+        "instruction": "Search for market research reports in GITAM Library's e-resources.",
+        "input": "Where can I find market research reports in GITAM Library's e-resources?",
+        "output": "**Market Research Reports:**\n GITAM Library\u00e2\u20ac\u2122s e-resources include access to market research reports. You can find them in databases like Statista, JSTOR, and others available via the digital library platform.",
+        "model_response": "**Market Research Reports:** \n- *The Lean Startup* \u00e2\u20ac\u201c Eric Ries \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm Design Manual* \u00e2\u20ac\u201c Andrew Hunt \n- *The Algorithm"
+    },
+    {
+        "instruction": "Confirm if GITAM Library provides access to Statista or other data platforms.",
+        "input": "Does GITAM Library provide access to Statista or other data platforms?",
+        "output": "**Access to Statista and Data Platforms:**\n Yes, GITAM Library provides access to Statista and other data platforms. You can access these through the digital library's online resources section.",
+        "model_response": "Yes, Statista is available for remote access. Log in to the library portal to access it."
+    },
+    {
+        "instruction": "Inquire about downloading census data through GITAM Library's subscriptions.",
+        "input": "How do I download census data through GITAM Library's subscriptions?",
+        "output": "**Downloading Census Data:**\n Census data is available through GITAM Library\u00e2\u20ac\u2122s subscriptions to databases like the Census Bureau\u00e2\u20ac\u2122s platform. You can download the data by logging into the library\u00e2\u20ac\u2122s digital resources section.",
+        "model_response": "**Downloading Census Data through GITAM Library's Subscriptions:**\n *Downloading Census Data through GITAM Library's Subscriptions:**\n *GITAM Library offers a subscription to the *Census Data Access Portal** for download of census data. Visit the library portal to access it."
+    },
+    {
+        "instruction": "Check if NSSO reports are accessible via GITAM Library's digital portal.",
+        "input": "Can I access NSSO reports via GITAM Library's digital portal?",
+        "output": "**Accessing NSSO Reports:**\n NSSO reports are available through GITAM Library\u00e2\u20ac\u2122s digital portal. You can search for them by entering keywords like 'NSSO reports' in the library's digital archive search tool.",
+        "model_response": "Yes, NSSO reports are available via the library portal. Log in to the library portal to access them under 'Research & Development' or 'Business & Management' sections."
+    },
+    {
+        "instruction": "Locate stock market archives in GITAM Library's collections.",
+        "input": "Where are the stock market archives in GITAM Library's collections?",
+        "output": "**Stock Market Archives:**\n Stock market archives are available in GITAM Library's digital collections. Search for them using terms like 'stock market' or access them through databases such as JSTOR, SSRN, and others provided by the library.",
+        "model_response": "**Stock Market Archives:** \n1. *The Great Crash* \n2. *The Great Crash* *The Great Crash* \n2.1 *The Great Crash* *The Great Crash* \n2.2 *The Great Crash* *The Great Crash* \n2.3 *The Great Crash* *The Great Crash* \n2.4 *The Great Crash* *The Great Crash* \n2.5 *The Great Crash* *The Great Crash* \n2.6 *The Great Crash* *The Great Crash* \n2.7 *The Great Crash* *The Great Crash* \n2.8 *The Great Crash* *The Great Crash* \n2.9 *The Great Crash* *The Great Crash* \n3.1 *The Great Crash* *The Great Crash* \n3.2 *The Great Crash* *The Great Crash* \n3.3 *The Great Crash* *The Great Crash* \n3.4 *The Great Crash* *The Great Crash* \n3.5 *The Great Crash* *The Great Crash* \n3.6 *The Great Crash* *"
+    },
+    {
+        "instruction": "Guide on accessing recorded lectures in GITAM Library's digital archive.",
+        "input": "Does GITAM Library have recorded lectures in its digital archive?",
+        "output": "**Accessing Recorded Lectures:**\n GITAM Library offers a selection of recorded lectures in its digital archive. You can access them through the 'Multimedia' or 'Lecture Recordings' section on the digital portal.",
+        "model_response": "Yes, GITAM Library offers 'Recorded Lectures' in its digital archive."
+    },
+    {
+        "instruction": "Explain how to access educational films through GITAM Library's portal.",
+        "input": "How do I access educational films through GITAM Library's portal?",
+        "output": "**Accessing Educational Films:**\n Educational films are available through GITAM Library\u00e2\u20ac\u2122s digital collections. Search for films by topic or use the 'Videos' section in the library's portal to stream educational content.",
+        "model_response": "Educational films can be accessed through the GITAM Library portal. Log in to the library portal to access them."
+    },
+    {
+        "instruction": "Inquire about streaming TED Talks via GITAM Library subscriptions.",
+        "input": "Can I stream TED Talks via GITAM Library's subscriptions?",
+        "output": "**Streaming TED Talks:**\n TED Talks are accessible through GITAM Library\u00e2\u20ac\u2122s subscriptions. You can stream them directly via the library\u00e2\u20ac\u2122s digital platform by searching for TED Talks or related topics.",
+        "model_response": "Yes, you can stream TED Talks via GITAM Library's subscriptions. You can access them through the library\u00e2\u20ac\u2122s digital resources."
+    },
+    {
+        "instruction": "Locate language learning audio files in GITAM Library's digital library.",
+        "input": "Where are the language learning audio files in GITAM's digital library?",
+        "output": "**Language Learning Audio Files:**\n Language learning audio files can be found in the library\u00e2\u20ac\u2122s digital resources section, typically under 'Language Learning' or 'Audiobooks' categories.",
+        "model_response": "**Language Learning Audio Files:** \n1. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler & Richard H. Thaler \n2. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n3. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n4. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n5. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n6. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n7. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n8. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n9. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n10. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n11. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H. Thaler \n12. *The Language Learning Handbook* \u00e2\u20ac\u201c Richard H"
+    },
+    {
+        "instruction": "Confirm if GITAM Library provides access to podcast archives.",
+        "input": "Does GITAM Library provide access to podcast archives?",
+        "output": "**Access to Podcast Archives:**\n Yes, GITAM Library offers access to a variety of podcast archives. You can find them by searching the library's digital platform under 'Podcasts' or 'Audio Resources'.",
+        "model_response": "Yes, GITAM Library provides access to podcast archives. Log in to the library portal to access them under 'Audio' or 'Video' sections."
+    },
+    {
+        "instruction": "Guide on searching digitized newspaper archives through GITAM Library.",
+        "input": "How do I search digitized newspaper archives through GITAM Library?",
+        "output": "**Searching Digitized Newspaper Archives:**\n GITAM Library provides access to digitized newspaper archives. Use the library\u00e2\u20ac\u2122s advanced search option and filter results by publication date or topic to locate relevant articles.",
+        "model_response": "You can search for digitized newspaper archives through the GITAM Library's digital archive. Use the library's portal to access the archives."
+    },
+    {
+        "instruction": "Inquire if GITAM Library has access to historical patent documents.",
+        "input": "Does GITAM Library have access to historical patent documents?",
+        "output": "**Access to Historical Patent Documents:**\n GITAM Library provides access to patent archives through specialized databases. Search for 'patents' in the digital portal or access them via specific databases like WIPO or USPTO.",
+        "model_response": "Yes, GITAM Library has access to historical patent documents. Please check with the library staff for specific copies."
+    },
+    {
+        "instruction": "Locate old syllabi in GITAM Library's digital repository.",
+        "input": "Where can I find old syllabi in GITAM Library's digital repository?",
+        "output": "**Finding Old Syllabi:**\n Old syllabi are available in GITAM Library's digital repository. You can search for them using keywords like 'syllabi' or browse the academic section under 'Course Materials.'",
+        "model_response": "You can find old syllabi in the GITAM Library's digital repository."
+    },
+    {
+        "instruction": "Guide on accessing digitized exam papers from previous years.",
+        "input": "Can I access digitized exam papers from previous years?",
+        "output": "**Accessing Digitized Exam Papers:**\n Yes, previous year\u00e2\u20ac\u2122s exam papers are available in the library's digital archive. You can search for them by course name or exam year in the exam paper section.",
+        "model_response": "Yes, exam papers from previous years can be accessed through GITAM library\u00e2\u20ac\u2122s digital archive."
+    },
+    {
+        "instruction": "Guide on finding commencement programs in the digital archives.",
+        "input": "How do I find commencement programs in the digital archives?",
+        "output": "**Finding Commencement Programs:**\n Commencement programs can be found in the digital archive by searching for 'commencement' or 'convocation' in the library's search tool under 'Event Records'.",
+        "model_response": "You can find commencement programs in the GITAM library\u00e2\u20ac\u2122s digital archives. Use the library\u00e2\u20ac\u2122s online catalog or contact the library staff."
+    },
+    {
+        "instruction": "Troubleshoot issues with opening PDFs from GITAM Library's digital archive.",
+        "input": "Why won't PDFs from GITAM Library's digital archive open?",
+        "output": "**PDF Opening Issues:**\n Ensure you have a PDF reader installed. If the issue persists, try clearing your browser cache or using a different browser. Contact library support if problems continue.",
+        "model_response": "**PDFs from GITAM Library's Digital Archive:** \n- Some PDFs from GITAM Library's digital archive may not open due to high-priority notifications. Please check with the library staff for details. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have questions about opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have questions about opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library staff. \n- If you have problems opening a PDF, please contact the library"
+    },
+    {
+        "instruction": "Guide on reporting broken links in GITAM Library's e-resources.",
+        "input": "How do I report broken links in GITAM Library's e-resources?",
+        "output": "**Reporting Broken Links:**\n To report broken links, please use the 'Contact Us' section on the library's website or directly email the library support team with details of the issue.",
+        "model_response": "You can report broken links in GITAM Library's e-resources through the library's support portal."
+    },
+    {
+        "instruction": "Steps to take when encountering an 'access denied' message for digital collections.",
+        "input": "What should I do when getting 'access denied' to digital collections?",
+        "output": "**Access Denied Issue:**\n If you receive an 'access denied' message, check that you are logged into your GITAM Library account. If the issue persists, contact the library's helpdesk for assistance with your account or access privileges.",
+        "model_response": "If 'access denied' is received for digital collections, contact the library help desk or the library's IT support team."
+    },
+    {
+        "instruction": "Explain why some pages might be missing from scanned books in GITAM's archive.",
+        "input": "Why are some pages missing from scanned books in GITAM's archive?",
+        "output": "**Missing Pages in Scanned Books:**\n Missing pages may occur due to scanning issues or copyright restrictions. If you notice missing pages, report it to the library staff for clarification or additional access options.",
+        "model_response": "Some pages may be missing from scanned books due to high demand. Please check with the library staff for details."
+    },
+    {
+        "instruction": "Explain how to request the digitization of print materials at GITAM Library.",
+        "input": "How do I request digitization of print materials at GITAM Library?",
+        "output": "**Requesting Digitization of Print Materials:**\n To request digitization of print materials, fill out the digitization request form available on the GITAM Library website or contact library staff for assistance with the process.",
+        "model_response": "You can request digitization of print materials through the library's digital catalog or through the library's digital portal."
+    },
+    {
+        "instruction": "Guide on locating computer science e-resources in GITAM Library's portal.",
+        "input": "Where are the computer science e-resources in GITAM Library's portal?",
+        "output": "**Locating Computer Science E-Resources:**\n Computer science e-resources can be found by searching under the 'Engineering & Technology' section or by using the library\u00e2\u20ac\u2122s dedicated 'Computer Science' resources page. You can also use keywords such as 'computer science' in the search bar to find related articles, books, and journals.",
+        "model_response": "**Computer Science E-Resources in GITAM Library:** \n- *Computer Science E-Books* \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer* \u00e2\u20ac\u201c Andrew Hunt \n- *The Pragmatic Programmer*"
+    },
+    {
+        "instruction": "Explain how to access medical journals through GITAM Library's subscriptions.",
+        "input": "How do I access medical journals through GITAM Library's subscriptions?",
+        "output": "**Accessing Medical Journals:**\n Medical journals are available through GITAM Library's subscriptions to databases like PubMed, JAMA, and other medical journal collections. Use the library's search tool or visit the 'Health Sciences' section of the portal to access them.",
+        "model_response": "**Medical Journals:** \n1. *The Lancet* \n2. *The Lancet* is available at Shelf L5 in the GITAM library. \n3. *The Lancet* is available as an e-book through the library\u00e2\u20ac\u2122s digital collection. \n4. *The Lancet* is available as an e-book through the library\u00e2\u20ac\u2122s digital collection. \n5. *The Lancet* is available as an e-book through the library\u00e2\u20ac\u2122s digital collection. \n6. *The Lancet* is available as an e-book through the library\u00e2\u20ac\u2122s digital collection. \n7. *The Lancet* is available as an e-book through the library\u00e2\u20ac\u2122s digital collection. \n8. *The Lancet* is available as an e-book through the library\u00e2\u20acs digital collection. \n9. *The Lancet* is available as an e-book through the library\u00e2\u20acs digital collection. \n10. *The Lancet* is available as an e-book through the library\u00e2\u20acs digital collection. \n11. *The Lancet* is available as an e-book through the library"
+    },
+    {
+        "instruction": "Inquire about specialized business case study archives at GITAM Library.",
+        "input": "Does GITAM Library have specialized business case study archives?",
+        "output": "**Business Case Study Archives:**\n Yes, GITAM Library provides access to specialized business case study archives through databases such as Harvard Business Review and case study collections. These can be found under the 'Business & Management' section on the library portal.",
+        "model_response": "**Specialized Business Case Study Archives:** \n1. *Case Studies in Business Management* \n2. \n2.1 *Case Studies in Business Management* \n2.2 *Case Studies in Business Management* \n2.3 *Case Studies in Business Management* \n2.4 *Case Studies in Business Management* \n2.5 *Case Studies in Business Management* \n2.6 *Case Studies in Business Management* \n2.7 *Case Studies in Business Management* \n2.8 *Case Studies in Business Management* \n2.9 *Case Studies in Business Management* \n3. \n3.1 *Case Studies in Business Management* \n3.2 *Case Studies in Business Management* \n3.3 *Case Studies in Business Management* \n3.4 *Case Studies in Business Management* \n3.5 *Case Studies in Business Management* \n3.6 *Case Studies in Business Management* \n3.7 *Case Studies in Business Management* \n4. \n4.1 *Case Studies in Business Management* \n4.2 *Case Studies in Business Management*"
+    },
+    {
+        "instruction": "Locate architecture design portfolios in the digital collections of GITAM Library.",
+        "input": "Where can I find architecture design portfolios in the digital collections?",
+        "output": "**Finding Architecture Design Portfolios:**\n Architecture design portfolios are available under the 'Architecture' category in the library\u00e2\u20ac\u2122s digital collections. You can browse through design portfolios, projects, and architectural papers in this section.",
+        "model_response": "**Architecture Design Portfolios in the GITAM Digital Collections:** \n1. *The Architect\u00e2\u20ac\u2122s Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n2. *The Architect\u00e2\u20ac\u2122s Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n3. *The Architect\u00e2\u20ac\u2122s Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n4. *The Architect\u00e2\u20ac\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n5. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n6. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n7. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n8. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n9. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n10. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n11. *The Architect\u00e2\u20acs Office* \u00e2\u20ac\u201c Frank Lloyd Wright \n12. *The Architect\u00e2s Office"
+    },
+    {
+        "instruction": "Explain how to locate law journals in GITAM Library's e-resources.",
+        "input": "How do I locate law journals in GITAM Library's e-resources?",
+        "output": "**Locating Law Journals:**\n Law journals can be found in the 'Law' section of the library\u00e2\u20ac\u2122s digital portal. Use the search tool to find journals or explore law-related databases such as LexisNexis and Westlaw available through GITAM Library.",
+        "model_response": "Use the GITAM Library's e-resources to find journals in the Law Review, Journal of Law and Economics, and Journal of Law and Economics."
+    },
+    {
+        "instruction": "Ask if links to articles in GITAM Library's digital collections can be shared.",
+        "input": "Can I share links to articles from GITAM Library's digital collections?",
+        "output": "**Sharing Links to Articles:**\n Yes, you can share links to articles from GITAM Library's digital collections, provided that the resource allows for link sharing. Ensure that any sharing abides by copyright and usage policies outlined by the library.",
+        "model_response": "Yes, links to articles in GITAM Library's digital collections can be shared. You can find them in the library\u00e2\u20ac\u2122s digital resources."
+    },
+    {
+        "instruction": "Inquire about collaborating on group projects using GITAM's e-resources.",
+        "input": "How do I collaborate on group projects using GITAM's e-resources?",
+        "output": "**Collaborating on Group Projects:**\n GITAM Library's digital platform supports collaboration through shared document access, collaborative tools, and shared resource folders. You can access these features by logging into your library account and utilizing tools like Google Drive or shared library folders.",
+        "model_response": "You can collaborate on group projects using GITAM's e-resources through the GITAM Digital Library portal."
+    },
+    {
+        "instruction": "Ask whether GITAM Library allows saving resources to cloud storage.",
+        "input": "Does GITAM Library allow saving resources to cloud storage?",
+        "output": "**Saving Resources to Cloud Storage:**\n GITAM Library allows you to save certain resources to cloud storage services like Google Drive, OneDrive, or Dropbox. Check the specific resource\u00e2\u20ac\u2122s terms of use, as some materials may have restrictions.",
+        "model_response": "Yes, GITAM Library allows users to save resources to cloud storage. Log into the library portal to access them."
+    },
+    {
+        "instruction": "Inquire about creating shared folders in GITAM Library's digital platform.",
+        "input": "Can I create shared folders in GITAM Library's digital platform?",
+        "output": "**Creating Shared Folders:**\n Yes, you can create shared folders within GITAM Library\u00e2\u20ac\u2122s platform for group projects. These folders allow collaborative access to digital resources such as articles, research papers, and reports.",
+        "model_response": "Yes, you can create shared folders in GITAM Library's digital platform. You can access them through the library portal."
+    },
+    {
+        "instruction": "Guide faculty on sharing course readings from digital archives.",
+        "input": "How do faculty share course readings from digital archives?",
+        "output": "**Sharing Course Readings:**\n Faculty can share course readings by creating reading lists in GITAM Library\u00e2\u20ac\u2122s platform or by uploading relevant materials to course-specific shared folders or digital repositories within the library portal.",
+        "model_response": "Faculty members can request access to course readings from digital archives through the library's digital archives."
+    },
+    {
+        "instruction": "Guide on researching GITAM's history through digital archives.",
+        "input": "How do I research GITAM's history through digital archives?",
+        "output": "**Researching GITAM\u00e2\u20ac\u2122s History:**\n You can research GITAM's history through the library's digital archives by accessing materials under 'University History' or 'Institutional Archives'. Search for key terms like 'founding', 'historical milestones', or 'anniversary records'.",
+        "model_response": "**Researching GITAM's History:** \n1. *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Researching GITAM's History:* \n- *Research"
+    },
+    {
+        "instruction": "Locate digitized annual reports in GITAM Library's collections.",
+        "input": "Where are digitized annual reports in GITAM Library's collections?",
+        "output": "**Digitized Annual Reports:**\n Annual reports can be found in the 'Institutional Reports' section of GITAM Library's digital collection. These reports are available for review by searching with terms like 'annual report' or 'financial report'.",
+        "model_response": "**Digital Annual Reports:** \n1. *The Year in Review* \n2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1."
+    },
+    {
+        "instruction": "Inquire about accessing past student newspapers in GITAM Library's digital repository.",
+        "input": "Can I access past student newspapers in the digital repository?",
+        "output": "**Accessing Past Student Newspapers:**\n Past student newspapers are available through GITAM Library\u00e2\u20ac\u2122s digital archives. Search under the 'Student Publications' section or use keywords like 'student newspaper' or 'GITAM news'.",
+        "model_response": "Yes, past student newspapers can be accessed through the GITAM Library's digital archive."
+    },
+    {
+        "instruction": "Guide on finding historical curriculum changes in GITAM Library's archives.",
+        "input": "How do I find historical curriculum changes in the archives?",
+        "output": "**Finding Historical Curriculum Changes:**\n Historical curriculum changes can be found by searching in the 'Academic Records' section or using keywords like 'curriculum change' or 'course syllabus revisions' in the library's digital archives.",
+        "model_response": "**Historical curriculum changes in GITAM Library archives:** \n1. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n2. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n3. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n4. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n5. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n6. *The Great Gatsby* was changed from *The Great Gatsby* to *The Great Gatsby* in the GITAM library archives. \n7. *The Great Gatsby* was changed from *"
+    }
+]
